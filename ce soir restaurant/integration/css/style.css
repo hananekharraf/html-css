@@ -1,5 +1,5 @@
 body{
-  background-color:#84FFFF;
+background-color:#84FFFF;
 background-image: url(https://cdn.pixabay.com/photo/2014/12/30/08/11/parquet-583691_960_720.jpg);
 
 }
@@ -15,17 +15,8 @@ nav{
   position:absolute;
   right: 25px;
 }
-header{
-  position: relative;
-}
-header img{
-  width:200px;
-  display: inline-block;;
-  margin: auto;
-  position:relative;
-  vertical-align: centrer;
 
-}
+
 #logo{
   position: relative;
   margin: auto;
@@ -35,18 +26,47 @@ header img{
   #logo div{
     width: 0;
     height:0;
-    border-top: 150px solid red;
-    border-left: 150px solid transparent;
+    border-top: 75px solid red;
+    border-left: 75px solid transparent;
+    border-bottom: 75px solid tansparent;
+    display: block;
+    margin: auto;
 
 
   }
 #logo img{
   top:-46px;
   position: absolute;
-  width:100%;
+  width:160%;
+  display: block;
   }
 
 #story p{
   float: left;
-  display: block;
+}
+#story{
+  display: inline;
+}
+#fare p{
+  float: right;
+}
+#fare{
+  display: inline;
+}
+#localdistillation p{
+  float:left;
+}
+#imglocaldistillation  {
+	width: 50px;
+	height: 50px;
+}
+#localdistillation{
+  display: inline;
+}
+#img h4{
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  display: inline;
+
 }
