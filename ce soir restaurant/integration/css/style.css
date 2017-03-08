@@ -3,6 +3,11 @@ background-color:#84FFFF;
 background-image: url(https://cdn.pixabay.com/photo/2014/12/30/08/11/parquet-583691_960_720.jpg);
 
 }
+header img{
+  width: 100px;
+  height:100px;
+  display:inline;
+}
 
 .inlineB{
   display:inline-block;
@@ -11,6 +16,7 @@ background-image: url(https://cdn.pixabay.com/photo/2014/12/30/08/11/parquet-583
   font-size: 30px;
   margin:20px;
 }
+
 nav{
   position:absolute;
   right: 25px;
@@ -26,7 +32,7 @@ nav{
   #logo div{
     width: 0;
     height:0;
-    border-top: 75px solid red;
+    border-top: 50px solid red;
     border-left: 75px solid transparent;
     border-bottom: 75px solid tansparent;
     display: block;
@@ -35,9 +41,9 @@ nav{
 
   }
 #logo img{
-  top:-46px;
+  top:-20px;
   position: absolute;
-  width:160%;
+  width:100%;
   display: block;
   }
 
